@@ -31,7 +31,7 @@
 		<table class="table table-bordered table-striped">
 			<thead class="thead-dark">
 				<tr>
-					<th>StudentID</th>
+					<th>Student ID</th>
 					<th>Name</th>
 					<th>Department</th>
 					<th>Country</th>

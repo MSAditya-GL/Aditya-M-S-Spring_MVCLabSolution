@@ -20,7 +20,7 @@ public class StudentController {
 	private StudentService studentService;
 
 	@RequestMapping("/list")
-	public String listBooks(Model theModel) {
+	public String listStudent(Model theModel) {
 
 		System.out.println("request recieved");
 
@@ -99,7 +99,7 @@ public class StudentController {
 
 	@RequestMapping("/print")
 
-	public String listStudent(Model theModel) {
+	public String listStudents(Model theModel) {
 
 		List<Student> eventReg = studentService.findAll();
 
