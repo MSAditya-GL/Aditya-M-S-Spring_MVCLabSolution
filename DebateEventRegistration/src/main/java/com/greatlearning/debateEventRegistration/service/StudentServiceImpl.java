@@ -83,7 +83,7 @@ public class StudentServiceImpl implements StudentService {
 		Transaction tx = session.beginTransaction();
 		String query = "";
 		if (id != 0)
-			query = "from student where id like '%" + id + "%'";
+			query = "from Student where id like '%" + id + "%'";
 		else
 			System.out.println("Cannot search without input data");
 

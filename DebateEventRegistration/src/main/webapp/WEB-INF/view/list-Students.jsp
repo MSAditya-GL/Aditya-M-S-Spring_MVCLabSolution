@@ -33,7 +33,12 @@
 
 			<!-- Add a button -->
 			<a href="/DebateEventRegistration/student/showFormForAdd"
-				class="btn btn-primary btn-sm mb-3"> Add Student </a>
+				class="btn btn-primary btn-sm mb-3"> Add Student </a> <input
+				type="search" name="id" placeholder="ID"
+				class="form-control-sm ml-5 mr-2 mb-3" />
+
+			<button type="submit" class="btn btn-success btn-sm mb-3">Search</button>
+
 		</form>
 
 		<table class="table table-bordered table-striped">
