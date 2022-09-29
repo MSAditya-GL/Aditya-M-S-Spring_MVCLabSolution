@@ -32,11 +32,11 @@ public class Student {
 
 	}
 
-	public Student(String firstName, String lastName, String course, String country) {
+	public Student(String firstName, String lastName, String department, String country) {
 
 		this.firstName = firstName;
 		this.lastName = lastName;
-		this.department = course;
+		this.department = department;
 		this.country = country;
 	}
 

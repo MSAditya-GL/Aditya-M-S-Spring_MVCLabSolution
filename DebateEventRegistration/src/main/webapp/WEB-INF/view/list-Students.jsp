@@ -79,15 +79,13 @@
 			</tbody>
 		</table>
 
-		<form action="/DebateEventRegistration/student/print"
-			class="form-inline">
-
+		
 			<!-- Add a button -->
 			<a href="/DebateEventRegistration/student/print" />
 
 			<button type="onclick" class="btn btn-success btn-sm mb-3">Print</button>
 
-		</form>
+		
 
 	</div>
 
